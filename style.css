@@ -1,17 +1,41 @@
 /*настройки странички по умолчанию*/
-*{
-    margin: 0;
+/**{
+    /*margin: 0;
     /*padding: 0;
     list-style: none;
     text-decoration: none;
-    background-color: rgb(122, 122, 122);*/
+    background-color: rgb(122, 122, 122);
+}*/
+
+/*чтобы отступов небыло*/
+body{
+    margin: 0px;
 }
 
+/*настройки загаловка*/
 header{
-    width: 100vw;
+    width: 100%;
     height: 100px;
-    background-color: rgb(97, 97, 97);
-    margin: 0;
+    background-color: #929192;
+}
+
+
+/*настройка кнопок в заголовке*/
+header button {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    border: 8px solid #a9a39e;
+    background-color: #c1b5a6;
+    display: inline;
+}
+
+
+/*показывает где мы находимся*/
+.page-name{
+    width: 100px;
+    display: inline;
+    font-size: 50px;
 }
 
 
